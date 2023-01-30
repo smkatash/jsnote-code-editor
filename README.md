@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Interactive browser-based coding environment built based on React and Redux together with Typescript.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
