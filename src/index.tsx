@@ -1,16 +1,21 @@
+import "bulmaswatch/slate/bulmaswatch.min.css"
 import ReactDOM from "react-dom/client";
-import CodeCell from "./components/code-cell";
-import "bulmaswatch/nuclear/bulmaswatch.min.css"
+import TextEditor from "./components/text-editor";
+import { Provider } from "react-redux";
+import { store } from "./state";
 
 
 const el = document.getElementById("root");
 const root = ReactDOM.createRoot(el!);
 
+//<CodeCell />
 const App = () => {
 	return (
-	<div>
-		<CodeCell />
-	</div>
+		<Provider store={store}>
+			<div>
+				<TextEditor />
+			</div>
+		</Provider>
 	);
 };
 
