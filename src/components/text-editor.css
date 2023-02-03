@@ -17,7 +17,7 @@
 	background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAFAQMAAABo7865AAAABlBMVEVHcEzMzMzyAv2sAAAAAXRSTlMAQObYZgAAABBJREFUeF5jOAMEEAIEEFwAn3kMwcB6I2AAAAAASUVORK5CYII=');
 	height: 11px;
 	cursor: row-resize;
-	background-color:rgb(220, 90, 133);
+	background-color: rgba(11, 157, 215, 0.649);
 	background-repeat: no-repeat;
 	background-position: 50%;
 	width: 100%;
@@ -42,16 +42,17 @@
 }
 
 .text-editor .w-md-editor-toolbar {
-	background-color: rgb(220, 90, 133);
-	border-bottom: 1px solid gray;
+	background-color: rgba(11, 157, 215, 0.649);
+	border-bottom: 1px solid whitesmoke;
 }
 
 .text-editor .w-md-editor-toolbar li button {
-	color: #d4d4d4;
+	color: black;
 }
 
 .text-editor .w-md-editor-content {
-	background-color: bisque;
+	background-color: whitesmoke;
+
 }
 
 .text-editor .w-md-editor,
