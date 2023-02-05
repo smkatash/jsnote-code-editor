@@ -14,7 +14,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.serveCommand = void 0;
 const commander_1 = require("commander");
-const local_api_1 = __importDefault(require("local-api"));
+const local_api_1 = __importDefault(require("@jsnote-smkatash/local-api"));
 const path_1 = __importDefault(require("path"));
 const isProduction = process.env.NODE_ENV === 'production';
 exports.serveCommand = new commander_1.Command()

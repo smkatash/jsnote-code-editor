@@ -1,17 +1,24 @@
 {
-  "name": "cli",
+  "name": "jsnote-smkatash",
   "version": "1.0.0",
   "description": "",
+  "bin": "dist/index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "start": "tsc --watch --preserveWatchOutput",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prepublishOnly": "tsc"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "commander": "^10.0.0",
-    "local-api": "^1.0.0"
+    "@jsnote-smkatash/local-api": "^1.0.0"
   },
   "devDependencies": {
     "@types/node": "^18.11.18",

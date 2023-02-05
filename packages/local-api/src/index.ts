@@ -13,18 +13,14 @@ const serve = (port: number, filename: string, dir: string, useProxy: boolean) =
 			ws: true,
 			logLevel: 'silent',
 			changeOrigin: true,
-			headers: {
-				Connection: 'keep-alive'
-				},
-			})
-		);
+		}));
 	} else {
-		const packagePath = require.resolve('local-client/build/index.html');
+		const packagePath = require.resolve('@jsnote-smkatash/local-client/build/index.html');
 		app.use(express.static(path.dirname(packagePath)));
 	}
 
 	return new Promise<void>((resolve, reject) => {
-		app.listen(port, '0.0.0.0', resolve).on('error', reject);
+		app.listen(port, resolve).on('error', reject);
 		console.log('Listening on port', port);
 	});
 };
