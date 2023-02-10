@@ -21,8 +21,8 @@
   },
   "devDependencies": {
     "@jsnote-smkatash/local-api": "^1.0.0",
-    "commander": "^10.0.0",
     "@types/node": "^18.11.18",
+    "commander": "^10.0.0",
     "esbuild": "0.8.26",
     "typescript": "^4.9.5"
   }
