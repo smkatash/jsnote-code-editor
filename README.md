@@ -26,6 +26,6 @@ Install my-project with npm
     
 ## Screenshots
 
-![App Screenshot](<img width="897" src="https://user-images.githubusercontent.com/76934648/218223379-78f918f6-c027-4b1e-8179-a5effd9d324b.png">)
+![App Screenshot](img width="897" src="https://user-images.githubusercontent.com/76934648/218223379-78f918f6-c027-4b1e-8179-a5effd9d324b.png")
 
 
