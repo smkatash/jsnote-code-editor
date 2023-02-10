@@ -2,9 +2,13 @@
   "name": "root",
   "private": true,
   "devDependencies": {
+    "@types/jscodeshift": "^0.11.6",
     "lerna": "^3.22.1"
   },
   "scripts": {
     "start": "npx lerna run start --parallel"
+  },
+  "dependencies": {
+    "jscodeshift": "^0.14.0"
   }
 }

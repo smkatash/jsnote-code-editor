@@ -1,1 +1,1 @@
-[{"content":"console.log(\"Hello world!\");","type":"code","id":"15h"},{"content":"Hello World!","type":"text","id":"jst"}]
+[{"content":"console.log(\"Hello world!\");","type":"code","id":"15h"},{"content":"Hello World!","type":"text","id":"jst"},{"content":"import React from \"react\";\nconsole.log(\"Hello world!\");","type":"code","id":"97hff"}]
