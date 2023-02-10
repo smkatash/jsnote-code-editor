@@ -1,12 +1,16 @@
 {
   "name": "root",
   "private": true,
+  "homepage": "https://smkatash.github.io/jsnote-smkatash/",
   "devDependencies": {
     "@types/jscodeshift": "^0.11.6",
+    "gh-pages": "^5.0.0",
     "lerna": "^3.22.1"
   },
   "scripts": {
-    "start": "npx lerna run start --parallel"
+    "start": "npx lerna run start --parallel",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "jscodeshift": "^0.14.0"
