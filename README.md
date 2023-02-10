@@ -1,16 +1,16 @@
 
 # Interactive browser-based coding environment
 
-I accomplished this project as a part of learning Typescript, while following tutorial of [Stephen Grider](https://www.udemy.com/user/sgslo/).
+I accomplished this project as a part of Typescript learning, while following tutorial of [Stephen Grider](https://www.udemy.com/user/sgslo/).
 
 Interactive browser-based coding environment, includes bundling and code transpiling directly in the browser.
-The app is published using a multi-package architecture to NPM, to easy download and run.
+The app is published using a multi-package architecture to NPM and easy to download and to run.
 
 Here's a partial list of the tools used in the project:
 
 - React, Redux, and Typescript
 - A package-based architecture
-- In-browser code transpiling and and processing
+- In-browser code transpiling and processing
 - Secure app against potential security exploits
 - Safely execute user-provided code directly in the browser
 
